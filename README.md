@@ -2,20 +2,15 @@
 
 Questo strumento consente di trovare i condensatori guasti senza 
 toglierli dalla scheda elettronica.
-Alimentazione 9 Volt. Si usa insieme ad un tester.
+Alimentazione 9 Volt.
 
 Il progetto fu pubblicato su Nuova Elettronica.
 	
-Ogni gruppo di 10  esr_tester è fatto da:
-
-+ PCB			
-+ componenti 
-+ scatolette, batterie, puntali
-
 Si tratta di progettare il PCB per poterlo fare stampare in 10+ copie.
 
-I file che dobbiamo dare alla fabbrica saranno in formato Gerber.
+Una stima dei costi si trova in `source/prezzi.ods`.
 
+I file che dobbiamo dare alla fabbrica saranno in formato Gerber.
 
 ESR significa resistenza equivalente in serie di un condensatore
 
