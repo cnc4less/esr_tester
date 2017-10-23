@@ -1,0 +1,6 @@
+*-save.pro
+*-rescue.lib
+*.bak
+*-save.kicad_pcb
+*.bck
+*.kicad_pcb-bak
