@@ -82,10 +82,10 @@ $EndComp
 Entry Wire Line
 	-1400 4750 -1300 4850
 $Comp
-L TL084 IC1-
+L TL084 IC1-1
 U 1 1 59E2ACB1
 P 2350 1750
-F 0 "IC1-" H 2350 1950 50  0000 L CNN
+F 0 "IC1-1" H 2350 1950 50  0000 L CNN
 F 1 "TL084" H 2350 1550 50  0001 L CNN
 F 2 "" H 2300 1850 50  0001 C CNN
 F 3 "" H 2400 1950 50  0001 C CNN
@@ -93,36 +93,36 @@ F 3 "" H 2400 1950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L TL084 IC1-
-U 2 1 59E2AD74
+L TL084 IC1-1
+U 3 1 59E2AD74
 P 6350 4150
-F 0 "IC1-" H 6350 4350 50  0000 L CNN
+F 0 "IC1-1" H 6350 4350 50  0000 L CNN
 F 1 "TL084" H 6350 3950 50  0001 L CNN
 F 2 "" H 6300 4250 50  0001 C CNN
 F 3 "" H 6400 4350 50  0001 C CNN
-	2    6350 4150
+	3    6350 4150
 	1    0    0    1   
 $EndComp
 $Comp
-L TL084 IC1-
-U 3 1 59E2AE53
+L TL084 IC1-1
+U 4 1 59E2AE53
 P 6700 2100
-F 0 "IC1-" H 6700 2300 50  0000 L CNN
+F 0 "IC1-1" H 6700 2300 50  0000 L CNN
 F 1 "TL084" H 6700 1900 50  0001 L CNN
 F 2 "" H 6650 2200 50  0001 C CNN
 F 3 "" H 6750 2300 50  0001 C CNN
-	3    6700 2100
+	4    6700 2100
 	1    0    0    1   
 $EndComp
 $Comp
-L TL084 IC1-
-U 4 1 59E2AF2E
+L TL084 IC1-1
+U 2 1 59E2AF2E
 P 2500 3950
-F 0 "IC1-" H 2500 4150 50  0000 L CNN
+F 0 "IC1-1" H 2500 4150 50  0000 L CNN
 F 1 "TL084" H 2500 3750 50  0001 L CNN
 F 2 "" H 2450 4050 50  0001 C CNN
 F 3 "" H 2550 4150 50  0001 C CNN
-	4    2500 3950
+	2    2500 3950
 	1    0    0    1   
 $EndComp
 $Comp
@@ -462,291 +462,16 @@ F 3 "" H 8800 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amperemeter_DC MES?
+L Amperemeter_DC MES1
 U 1 1 59E31A4B
 P 8800 3100
-F 0 "MES?" H 8670 3140 50  0000 R CNN
+F 0 "MES1" H 8670 3140 50  0000 R CNN
 F 1 "Amperemeter_DC" H 9500 2900 50  0001 R CNN
 F 2 "" V 8800 3200 50  0001 C CNN
 F 3 "" V 8800 3200 50  0001 C CNN
 	1    8800 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	850  2000 850  1750
-Wire Wire Line
-	850  1150 850  700 
-Wire Wire Line
-	850  700  1350 700 
-Wire Wire Line
-	1350 700  2450 700 
-Wire Wire Line
-	2450 700  2900 700 
-Wire Wire Line
-	2900 700  3900 700 
-Wire Wire Line
-	3900 700  4350 700 
-Wire Wire Line
-	4350 700  8100 700 
-Wire Wire Line
-	1350 700  1350 1150
-Wire Wire Line
-	850  2400 850  2800
-Wire Wire Line
-	850  2800 1350 2800
-Wire Wire Line
-	1350 2800 2450 2800
-Wire Wire Line
-	2450 2800 2900 2800
-Wire Wire Line
-	1350 2800 1350 2650
-Wire Wire Line
-	1350 1450 1350 1750
-Wire Wire Line
-	1350 1750 1350 2250
-Wire Wire Line
-	1350 2250 1350 2350
-Connection ~ 1350 2250
-Connection ~ 1350 700 
-Wire Wire Line
-	2900 700  2900 1150
-Wire Wire Line
-	1350 1750 1600 1750
-Wire Wire Line
-	1600 1750 2050 1750
-Connection ~ 1350 1750
-Connection ~ 1350 2800
-Wire Wire Line
-	2650 1650 2900 1650
-Wire Wire Line
-	2900 1450 2900 1650
-Wire Wire Line
-	2900 1650 2900 2100
-Wire Wire Line
-	2900 2800 2900 2400
-Connection ~ 2450 2800
-Connection ~ 2900 1650
-Wire Wire Line
-	2650 1850 2700 1850
-Wire Wire Line
-	2700 1850 2700 1250
-Wire Wire Line
-	2700 1250 1600 1250
-Wire Wire Line
-	1600 1250 1600 1750
-Wire Wire Line
-	1600 1750 1600 3350
-Wire Wire Line
-	1600 3350 1600 4600
-Wire Wire Line
-	1600 4600 1600 5000
-Wire Wire Line
-	1600 5000 1600 5300
-Wire Wire Line
-	1600 3350 1700 3350
-Wire Wire Line
-	2000 3350 2150 3350
-Wire Wire Line
-	2150 3350 2500 3350
-Wire Wire Line
-	2150 3350 2150 3850
-Wire Wire Line
-	2150 3850 2200 3850
-Wire Wire Line
-	2100 4050 2100 4600
-Wire Wire Line
-	2100 4050 2200 4050
-Wire Wire Line
-	2800 3950 2900 3950
-Wire Wire Line
-	2900 3950 3050 3950
-Wire Wire Line
-	3350 3950 3600 3950
-Connection ~ 2150 3350
-Wire Wire Line
-	2900 3350 2900 3950
-Wire Wire Line
-	2900 3950 2900 4600
-Wire Wire Line
-	2900 3350 2800 3350
-Connection ~ 2900 3950
-Wire Wire Line
-	2000 4600 2100 4600
-Wire Wire Line
-	2100 4600 2550 4600
-Connection ~ 2100 4600
-Wire Wire Line
-	2900 4600 2850 4600
-Wire Wire Line
-	5100 5000 3900 5000
-Wire Wire Line
-	3900 5000 1600 5000
-Wire Wire Line
-	3900 5000 3900 4150
-Wire Wire Line
-	3900 3750 3900 3450
-Wire Wire Line
-	3900 1550 3900 2050
-Wire Wire Line
-	3900 2050 3900 3150
-Wire Wire Line
-	3900 2050 4050 2050
-Connection ~ 3900 2050
-Wire Wire Line
-	3900 700  3900 1250
-Connection ~ 2900 700 
-Wire Wire Line
-	4350 700  4350 1850
-Connection ~ 3900 700 
-Wire Wire Line
-	4350 2250 4350 4250
-Wire Wire Line
-	4350 4250 4600 4250
-Wire Wire Line
-	4600 4250 4700 4250
-Wire Wire Line
-	4600 4350 4600 4250
-Connection ~ 4600 4250
-Wire Wire Line
-	4600 4750 4600 4650
-Wire Wire Line
-	4350 4750 4450 4750
-Wire Wire Line
-	4450 4750 4600 4750
-Wire Wire Line
-	4600 4750 4700 4750
-Wire Wire Line
-	8800 4750 8100 4750
-Wire Wire Line
-	8100 4750 7500 4750
-Wire Wire Line
-	7500 4750 5900 4750
-Wire Wire Line
-	5900 4750 5100 4750
-Wire Wire Line
-	5100 4750 5000 4750
-Wire Wire Line
-	5100 4650 5100 4750
-Wire Wire Line
-	5100 4750 5100 5000
-Wire Wire Line
-	5100 5000 5100 5350
-Wire Wire Line
-	5100 5350 5100 5800
-Wire Wire Line
-	5100 5800 5100 6100
-Wire Wire Line
-	5100 4350 5100 4250
-Wire Wire Line
-	5000 4250 5100 4250
-Wire Wire Line
-	5100 4250 5300 4250
-Connection ~ 5100 4250
-Wire Wire Line
-	5600 4250 5900 4250
-Wire Wire Line
-	5900 4250 6050 4250
-Wire Wire Line
-	5600 4050 5900 4050
-Wire Wire Line
-	5900 4050 6050 4050
-Wire Wire Line
-	5300 4050 4450 4050
-Wire Wire Line
-	4450 4050 4450 4750
-Connection ~ 4600 4750
-Wire Wire Line
-	5900 4400 5900 4250
-Connection ~ 5900 4250
-Wire Wire Line
-	5900 4750 5900 4700
-Connection ~ 5100 4750
-Connection ~ 3900 5000
-Wire Wire Line
-	5900 4050 5900 3900
-Connection ~ 5900 4050
-Wire Wire Line
-	5900 2200 5900 3450
-Wire Wire Line
-	5900 3450 5900 3600
-Wire Wire Line
-	5900 3450 6800 3450
-Wire Wire Line
-	6800 3450 6800 4150
-Wire Wire Line
-	6650 4150 6800 4150
-Wire Wire Line
-	6800 4150 6950 4150
-Connection ~ 6800 4150
-Wire Wire Line
-	7250 4150 7500 4150
-Wire Wire Line
-	7500 4150 7800 4150
-Wire Wire Line
-	7500 4150 7500 4350
-Wire Wire Line
-	7500 4750 7500 4650
-Connection ~ 5900 4750
-Connection ~ 7500 4150
-Wire Wire Line
-	8100 4750 8100 4350
-Connection ~ 7500 4750
-Wire Wire Line
-	8100 3950 8100 3750
-Wire Wire Line
-	8100 3300 8100 3450
-Wire Wire Line
-	8100 700  8100 3000
-Connection ~ 4350 700 
-Wire Wire Line
-	6250 2200 6300 2200
-Wire Wire Line
-	6300 2200 6400 2200
-Wire Wire Line
-	5900 2200 5950 2200
-Connection ~ 5900 3450
-Wire Wire Line
-	6300 2400 6300 2200
-Connection ~ 6300 2200
-Wire Wire Line
-	7100 2100 7000 2100
-Wire Wire Line
-	7400 1700 7400 2100
-Wire Wire Line
-	7400 2100 7400 2300
-Wire Wire Line
-	6300 2700 6300 2800
-Wire Wire Line
-	6300 2800 7400 2800
-Wire Wire Line
-	7400 2800 8350 2800
-Wire Wire Line
-	7400 2800 7400 2600
-Wire Wire Line
-	7400 1700 6300 1700
-Wire Wire Line
-	6300 1700 6300 2000
-Wire Wire Line
-	6300 2000 6400 2000
-Connection ~ 7400 2100
-Wire Wire Line
-	7400 2100 8300 2100
-Wire Wire Line
-	8600 2100 8800 2100
-Wire Wire Line
-	8800 2100 8950 2100
-Wire Wire Line
-	8800 2100 8800 2400
-Wire Wire Line
-	8950 2100 8950 2550
-Connection ~ 8800 2100
-Wire Wire Line
-	8800 2700 8800 2900
-Wire Wire Line
-	8800 3300 8800 3450
-Wire Wire Line
-	8800 3450 8800 4750
-Connection ~ 8100 4750
 $Comp
 L D DS1
 U 1 1 59E32281
@@ -887,26 +612,6 @@ DD 19 DB 77 67 24 BF 1F E8 42 D8 06 F9 DC CE 8C 89 BE 36 DD 53 40 02 9E 15 07 04
 AE 42 60 82 
 EndData
 $EndBitmap
-Wire Wire Line
-	5100 5350 4950 5350
-Connection ~ 5100 5000
-Wire Wire Line
-	5100 5800 4950 5800
-Connection ~ 5100 5350
-Connection ~ 5100 5800
-Wire Wire Line
-	4350 5800 4650 5800
-Wire Wire Line
-	4350 4750 4350 5350
-Wire Wire Line
-	4350 5350 4350 5800
-Wire Wire Line
-	4350 5800 4350 6100
-Wire Wire Line
-	4650 5350 4350 5350
-Connection ~ 4350 5800
-Connection ~ 4450 4750
-Connection ~ 4350 5350
 $Comp
 L GND #PWR01
 U 1 1 59E3628E
@@ -921,14 +626,246 @@ F 4 "Virtual Ground" H 1600 5100 60  0000 C TNN "Other"
 $EndComp
 Text Notes 3000 7000 0    60   ~ 0
 Qui ci sarebbero \ni coccodrilli/puntali.
+Text Notes 7000 6350 0    118  ~ 0
+Lo schema dell'integrato TL084, come \npresente nella libreria di Kicad è diverso \nda come è disegnato nella rivista. \nHo collegato come da rivista i pin \nin base al loro numero, piuttosto che \nin base alle sottounità (A,B,C,D) del IC. 
+$Comp
+L Battery BT1
+U 1 1 59E325CB
+P 850 2200
+F 0 "BT1" H 950 2300 50  0000 L CNN
+F 1 "9V" H 950 2200 50  0000 L CNN
+F 2 "" V 850 2260 50  0001 C CNN
+F 3 "" V 850 2260 50  0001 C CNN
+	1    850  2200
+	1    0    0    -1  
+$EndComp
+Text Label 2450 700  0    60   ~ 0
++4.5V
+Text Label 2450 2800 0    60   ~ 0
+-4.5V
+Text Label 2400 3650 0    60   ~ 0
+-4.5V
+Text Label 2400 4350 0    60   ~ 0
++4.5V
+Text Label 6250 3850 0    60   ~ 0
+-4.5V
+Text Label 6250 4500 0    60   ~ 0
++4.5V
+Text Label 6600 1800 0    60   ~ 0
+-4.5V
+Text Label 6600 2500 0    60   ~ 0
++4.5V
+Wire Wire Line
+	850  2000 850  1750
+Wire Wire Line
+	850  1150 850  700 
+Wire Wire Line
+	850  700  8100 700 
+Wire Wire Line
+	1350 700  1350 1150
+Wire Wire Line
+	850  2400 850  2800
+Wire Wire Line
+	850  2800 2900 2800
+Wire Wire Line
+	1350 2800 1350 2650
+Wire Wire Line
+	1350 1450 1350 2350
+Connection ~ 1350 2250
+Connection ~ 1350 700 
+Wire Wire Line
+	2900 700  2900 1150
+Wire Wire Line
+	1350 1750 2050 1750
+Connection ~ 1350 1750
+Connection ~ 1350 2800
+Wire Wire Line
+	2650 1650 2900 1650
+Wire Wire Line
+	2900 1450 2900 2100
+Wire Wire Line
+	2900 2800 2900 2400
+Connection ~ 2450 2800
+Connection ~ 2900 1650
+Wire Wire Line
+	2650 1850 2700 1850
+Wire Wire Line
+	2700 1850 2700 1250
+Wire Wire Line
+	2700 1250 1600 1250
+Wire Wire Line
+	1600 1250 1600 5300
+Wire Wire Line
+	1600 3350 1700 3350
+Wire Wire Line
+	2000 3350 2500 3350
+Wire Wire Line
+	2150 3350 2150 3850
+Wire Wire Line
+	2150 3850 2200 3850
+Wire Wire Line
+	2100 4050 2100 4600
+Wire Wire Line
+	2100 4050 2200 4050
+Wire Wire Line
+	2800 3950 3050 3950
+Wire Wire Line
+	3350 3950 3600 3950
+Connection ~ 2150 3350
+Wire Wire Line
+	2900 3350 2900 4600
+Wire Wire Line
+	2900 3350 2800 3350
+Connection ~ 2900 3950
+Wire Wire Line
+	2000 4600 2550 4600
+Connection ~ 2100 4600
+Wire Wire Line
+	2900 4600 2850 4600
+Wire Wire Line
+	5100 5000 1600 5000
+Wire Wire Line
+	3900 5000 3900 4150
+Wire Wire Line
+	3900 3750 3900 3450
+Wire Wire Line
+	3900 1550 3900 3150
+Wire Wire Line
+	3900 2050 4050 2050
+Connection ~ 3900 2050
+Wire Wire Line
+	3900 700  3900 1250
+Connection ~ 2900 700 
+Wire Wire Line
+	4350 700  4350 1850
+Connection ~ 3900 700 
+Wire Wire Line
+	4350 2250 4350 4250
+Wire Wire Line
+	4350 4250 4700 4250
+Wire Wire Line
+	4600 4350 4600 4250
+Connection ~ 4600 4250
+Wire Wire Line
+	4600 4750 4600 4650
+Wire Wire Line
+	4350 4750 4700 4750
+Wire Wire Line
+	8800 4750 5000 4750
+Wire Wire Line
+	5100 4650 5100 6100
+Wire Wire Line
+	5100 4350 5100 4250
+Wire Wire Line
+	5000 4250 5300 4250
+Connection ~ 5100 4250
+Wire Wire Line
+	5600 4250 6050 4250
+Wire Wire Line
+	5600 4050 6050 4050
+Wire Wire Line
+	5300 4050 4450 4050
+Wire Wire Line
+	4450 4050 4450 4750
+Connection ~ 4600 4750
+Wire Wire Line
+	5900 4400 5900 4250
+Connection ~ 5900 4250
+Wire Wire Line
+	5900 4750 5900 4700
+Connection ~ 5100 4750
+Connection ~ 3900 5000
+Wire Wire Line
+	5900 4050 5900 3900
+Connection ~ 5900 4050
+Wire Wire Line
+	5900 2200 5900 3600
+Wire Wire Line
+	5900 3450 6800 3450
+Wire Wire Line
+	6800 3450 6800 4150
+Wire Wire Line
+	6650 4150 6950 4150
+Connection ~ 6800 4150
+Wire Wire Line
+	7250 4150 7800 4150
+Wire Wire Line
+	7500 4150 7500 4350
+Wire Wire Line
+	7500 4750 7500 4650
+Connection ~ 5900 4750
+Connection ~ 7500 4150
+Wire Wire Line
+	8100 4750 8100 4350
+Connection ~ 7500 4750
+Wire Wire Line
+	8100 3950 8100 3750
+Wire Wire Line
+	8100 3300 8100 3450
+Wire Wire Line
+	8100 700  8100 3000
+Connection ~ 4350 700 
+Wire Wire Line
+	6250 2200 6400 2200
+Wire Wire Line
+	5900 2200 5950 2200
+Connection ~ 5900 3450
+Wire Wire Line
+	6300 2400 6300 2200
+Connection ~ 6300 2200
+Wire Wire Line
+	7100 2100 7000 2100
+Wire Wire Line
+	7400 1700 7400 2300
+Wire Wire Line
+	6300 2700 6300 2800
+Wire Wire Line
+	6300 2800 8350 2800
+Wire Wire Line
+	7400 2800 7400 2600
+Wire Wire Line
+	7400 1700 6300 1700
+Wire Wire Line
+	6300 1700 6300 2000
+Wire Wire Line
+	6300 2000 6400 2000
+Connection ~ 7400 2100
+Wire Wire Line
+	7400 2100 8300 2100
+Wire Wire Line
+	8600 2100 8950 2100
+Wire Wire Line
+	8800 2100 8800 2400
+Wire Wire Line
+	8950 2100 8950 2550
+Connection ~ 8800 2100
+Wire Wire Line
+	8800 2700 8800 2900
+Wire Wire Line
+	8800 3300 8800 4750
+Connection ~ 8100 4750
+Wire Wire Line
+	5100 5350 4950 5350
+Connection ~ 5100 5000
+Wire Wire Line
+	5100 5800 4950 5800
+Connection ~ 5100 5350
+Connection ~ 5100 5800
+Wire Wire Line
+	4350 5800 4650 5800
+Wire Wire Line
+	4350 4750 4350 6100
+Wire Wire Line
+	4650 5350 4350 5350
+Connection ~ 4350 5800
+Connection ~ 4450 4750
+Connection ~ 4350 5350
 Wire Notes Line
 	2850 6750 4000 6750
 Wire Notes Line
 	4000 6750 4000 7050
 Wire Notes Line
 	4000 7050 2800 7050
-Text Notes 7000 6350 0    118  ~ 0
-Lo schema dell'integrato TL084, come \npresente nella libreria di Kicad è diverso \nda come è disegnato nella rivista. \nHo collegato come da rivista i pin \nin base al loro numero, piuttosto che \nin base alle sottounità (A,B,C,D) del IC. 
 Connection ~ 1600 1750
 Connection ~ 1600 5000
 Wire Wire Line
@@ -947,42 +884,15 @@ Wire Wire Line
 	8350 3450 8800 3450
 Connection ~ 8800 3450
 Connection ~ 7400 2800
-$Comp
-L Battery BT?
-U 1 1 59E325CB
-P 850 2200
-F 0 "BT?" H 950 2300 50  0000 L CNN
-F 1 "9V" H 950 2200 50  0000 L CNN
-F 2 "" V 850 2260 50  0001 C CNN
-F 3 "" V 850 2260 50  0001 C CNN
-	1    850  2200
-	1    0    0    -1  
-$EndComp
-Text Label 2450 700  0    60   ~ 0
-+4.5V
-Text Label 2450 2800 0    60   ~ 0
--4.5V
 Connection ~ 2450 700 
 Wire Wire Line
-	2450 2800 2450 2050
-Wire Wire Line
-	2450 700  2450 1450
-Text Label 2400 3650 0    60   ~ 0
--4.5V
-Text Label 2400 4350 0    60   ~ 0
-+4.5V
-Wire Wire Line
 	2400 4250 2400 4350
-Text Label 6250 3850 0    60   ~ 0
--4.5V
-Text Label 6250 4500 0    60   ~ 0
-+4.5V
 Wire Wire Line
 	6250 4450 6250 4500
-Text Label 6600 1800 0    60   ~ 0
--4.5V
-Text Label 6600 2500 0    60   ~ 0
-+4.5V
 Wire Wire Line
 	6600 2400 6600 2500
+Wire Wire Line
+	2450 700  2450 1450
+Wire Wire Line
+	2450 2800 2450 2050
 $EndSCHEMATC
