@@ -48,7 +48,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SW_DIP_x01 S1
+L SW_DIP_x01-RESCUE-esr_tester S1
 U 1 1 59E2A8BC
 P 850 1450
 F 0 "S1" H 850 1600 50  0000 C CNN
@@ -519,7 +519,7 @@ F 3 "" H 5100 6300 50  0001 C CNN
 $EndComp
 $Bitmap
 Pos 4750 6800
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 48 00 00 00 F9 08 02 00 00 00 CA 97 3B 
 00 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0D AC 00 00 0D AC 
@@ -627,7 +627,7 @@ F 4 "Virtual Ground" H 1600 5100 60  0000 C TNN "Other"
 $EndComp
 Text Notes 3000 7000 0    60   ~ 0
 Qui ci sarebbero \ni coccodrilli/puntali.
-Text Notes 7000 6350 0    118  ~ 0
+Text Notes 7000 6350 0    39   ~ 0
 Lo schema dell'integrato TL084, come \npresente nella libreria di Kicad è diverso \nda come è disegnato nella rivista. \nHo collegato come da rivista i pin \nin base al loro numero, piuttosto che \nin base alle sottounità (A,B,C,D) del IC. 
 $Comp
 L Battery BT1
@@ -896,4 +896,36 @@ Wire Wire Line
 	2450 700  2450 1450
 Wire Wire Line
 	2450 2800 2450 2050
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 5A2D7459
+P 9750 3150
+F 0 "#FLG?" H 9750 3225 50  0001 C CNN
+F 1 "PWR_FLAG" H 9750 3300 50  0000 C CNN
+F 2 "" H 9750 3150 50  0001 C CNN
+F 3 "" H 9750 3150 50  0001 C CNN
+	1    9750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 5A2D74C3
+P 10400 3150
+F 0 "#FLG?" H 10400 3225 50  0001 C CNN
+F 1 "PWR_FLAG" H 10400 3300 50  0000 C CNN
+F 2 "" H 10400 3150 50  0001 C CNN
+F 3 "" H 10400 3150 50  0001 C CNN
+	1    10400 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3150 9750 3300
+Wire Wire Line
+	10400 3150 10400 3350
+Text Label 9750 3300 0    60   ~ 0
++4.5V
+Text Label 10400 3350 0    60   ~ 0
+-4.5V
+Text Notes 9450 2650 0    60   ~ 0
+Add a Power Flag to \nindicate to KiCad that \npower comes from somewhere. \nThis will avoid the ERC warning.
 $EndSCHEMATC
