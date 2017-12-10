@@ -1,0 +1,8 @@
+This file is the output of «sqlite3 cli tool»
+open two terminals. On terminal1 use `sqlite3` to use sqlite cli tool. Redirect the output with `.output out.txt`. On terminal2 use `tail -f out.txt` to view the changing output.
+seq  name             file                                                      
+---  ---------------  ----------------------------------------------------------
+0    main             /home/argo/projects/esr_tester/source/doc/esr_db.sqlite   
+seq  name             file                                                      
+---  ---------------  ----------------------------------------------------------
+0    main             /home/argo/projects/esr_tester/source/doc/esr_db.sqlite   
