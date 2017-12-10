@@ -38,10 +38,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Device to test the Equivalent Series Resistance of a capacitor"
+Date "2017-12-10"
 Rev ""
-Comp ""
+Comp "PCOfficina.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
